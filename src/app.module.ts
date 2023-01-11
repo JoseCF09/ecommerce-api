@@ -17,7 +17,9 @@ import { ProductModule } from './product/product.module';
     BrandModule,
     OrderModule,
     ProductModule,
-    MongooseModule.forRoot('mongodb://localhost:27017/tecnodum'),
+    MongooseModule.forRoot(
+      'mongodb://mongo:Za2qvoiPjuanWnbZ4bLo@containers-us-west-100.railway.app:5599',
+    ),
   ],
   controllers: [AppController],
   providers: [AppService],
